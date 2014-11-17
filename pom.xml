@@ -89,7 +89,7 @@
 		<httpclient_version>4.1.2</httpclient_version>
 		<hessian_lite_version>3.2.1-fixed-2</hessian_lite_version>
 		<xstream_version>1.4.1</xstream_version>
-		<fastjson_version>1.2.0</fastjson_version>
+		<fastjson_version>1.1.44</fastjson_version>
 		<bsf_version>3.1</bsf_version>
 		<sorcerer_version>0.8</sorcerer_version>
 		<zookeeper_version>3.3.3</zookeeper_version>
@@ -123,7 +123,7 @@
 		<!--<argline>-server -Xms64m -Xmx64m -XX:PermSize=64m -XX:MaxPermSize=64m</argline>-->
 		<skip_maven_deploy>false</skip_maven_deploy>
 		<updateReleaseInfo>true</updateReleaseInfo>
-		<project.build.sourceEncoding>${file_encoding}</project.build.sourceEncoding>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
 	<dependencyManagement>
 		<dependencies>

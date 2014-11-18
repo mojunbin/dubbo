@@ -1,6 +1,7 @@
 dubbo-maven/src/
 
 # maven ignore
+**/target/
 target/
 *.jar
 *.war
